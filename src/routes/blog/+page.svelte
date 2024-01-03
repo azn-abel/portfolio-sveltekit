@@ -4,5 +4,5 @@
   export let data: PageData;
 </script>
 
-<h1>Blog page</h1>
+<h1>Blog ✍🏻</h1>
 <p>My blog will go here, one day.</p>

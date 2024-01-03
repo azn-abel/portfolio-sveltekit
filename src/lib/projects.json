@@ -1,6 +1,6 @@
 [
     {
-      "title": "Miku's Neon World",
+      "title": "Miku's Neon World – HTML, CSS, JavaScript",
       "alt": "Miku Art",
       "description": "A music visualizer web application made for Magical Mirai 2023.",
       "url": "https://azn-abel.github.io/mikus-neon-world",
@@ -8,7 +8,7 @@
       "borderRadius": "200px"
     },
     {
-      "title": "osu! rankings",
+      "title": "osu! rankings – Python, PostgreSQL",
       "alt": "osu! Logo",
       "description": "A Discord bot that lets users share osu! scores and player stats.",
       "url": "https://github.com/azn-abel/OsuBot",
@@ -16,7 +16,7 @@
       "borderRadius": "0px"
     },
     {
-      "title": "Ramen Data Analysis",
+      "title": "Ramen Data Analysis – Python, Matplotlib",
       "alt": "Python Logo",
       "description": "Exploratory data analysis to identify trends in Ramen ratings.",
       "url": "https://github.com/azn-abel/ramen-ratings",
@@ -24,7 +24,7 @@
       "borderRadius": "0px"
     },
     {
-      "title": "Jimmy's Quest",
+      "title": "Jimmy's Quest – GameMaker Studio",
       "alt": "Burger Cat",
       "description": "An educational video game made with the GameMaker engine.",
       "url": "https://github.com/azn-abel/burger-cat-game",
@@ -32,15 +32,15 @@
       "borderRadius": "0px"
     },
     {
-      "title": "Portfolio",
-      "alt": "React Logo",
-      "description": "React.js, HTML, and CSS source code for this website.",
-      "url": "https://github.com/azn-abel/digital-portfolio",
+      "title": "Portfolio – SvelteKit, TypeScript",
+      "alt": "SvelteKit Logo",
+      "description": "Svelte, HTML, and CSS source code for this website.",
+      "url": "https://github.com/azn-abel/portfolio-sveltekit",
       "imagePath": "react.png",
       "borderRadius": "200px"
     },
     {
-      "title": "PokeBot",
+      "title": "PokeBot – Python, PostgreSQL",
       "alt": "Pokeball",
       "description": "A discord.py bot that simulates Pokemon collecting in chat rooms.",
       "url": "https://github.com/azn-abel/PokemonCollectingBot3",
@@ -48,7 +48,7 @@
       "borderRadius": "0px"
     },
     {
-      "title": "Wake County Food",
+      "title": "Wake County Food – RStudio",
       "alt": "R Logo",
       "description": "A simple R project that analyzes sanitation scores in Wake County, NC.",
       "url": "https://github.com/azn-abel/wake-county-food-inspections",
@@ -56,10 +56,10 @@
       "borderRadius": "0px"
     },
     {
-      "title": "Genshin Impact",
-      "alt": "Genshin Impact Logo",
-      "description": "A discord.py bot that simulates Genshin Impact in Discord.",
-      "url": "https://github.com/azn-abel/GenshinDiscordBot",
+      "title": "Old Portfolio – React, JavaScript",
+      "alt": "Old Portfolio",
+      "description": "Old version of my digital portfolio which was built with React.",
+      "url": "https://azn-abel.github.io/",
       "imagePath": "genshin.png",
       "borderRadius": "200px"
     }

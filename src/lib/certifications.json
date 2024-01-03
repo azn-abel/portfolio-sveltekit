@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Certified Kubernetes Application Developer (CKAD)",
+        "image_url": "/ckad_from_cncfsite.png",
+        "cert_url": "https://www.credly.com/badges/23834986-f3a1-43ad-8314-393eb891789e/public_url"
+    },
+    {
+        "name": "AWS Certified Cloud Practitioner",
+        "image_url": "/aws_ccp.png",
+        "cert_url": "https://www.credly.com/badges/2177f5a8-2248-45ac-8636-abb5f28c022a/public_url"
+    },
+    {
+        "name": "React: Using TypeScript",
+        "image_url": "/linkedin.png",
+        "cert_url": "https://www.linkedin.com/learning/certificates/0f40310c3d7c65c93e5b13cd0bc64e1025c8f6eb148c5a0ce271045e38bb46e6"
+    },
+    {
+        "name": "Certified Entry-Level Python Developer",
+        "image_url": "/pcep.png",
+        "cert_url": "https://verify.openedg.org/?id=Npzg.TXYm.B2D8"
+    }
+]
