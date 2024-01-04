@@ -3,18 +3,18 @@
         "title": "GitHub",
         "alt": "GitHub Logo",
         "url": "https://github.com/azn-abel",
-        "image": "github.png"
+        "image": "/github.png"
     },
     {
         "title": "LinkedIn",
         "alt": "LinkedIn Logo",
         "url": "https://linkedin.com/in/aluprof4",
-        "image": "In-White.png"
+        "image": "/In-White.png"
     },
     {
         "title": "Discord",
         "alt": "Discord Logo",
         "url": "https://discordapp.com/users/229248090786365443",
-        "image": "discord-contact.png"
+        "image": "/discord-contact.png"
     }
 ]

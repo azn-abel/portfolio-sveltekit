@@ -13,7 +13,7 @@
 
 <style>
   .cert {
-    width: 288px;
+    width: 256px;
     text-align: center;
   }
   a {

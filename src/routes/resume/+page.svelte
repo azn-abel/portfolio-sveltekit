@@ -5,7 +5,7 @@
   export let data: PageData;
 </script>
 
-<h1>Resume 📄</h1>
+<h1>Experience 📄</h1>
 {#each data.jobs as job}
   <Job {...job} />
 {/each}
