@@ -16,6 +16,30 @@
       "borderRadius": "0px"
     },
     {
+      "title": "Portfolio – SvelteKit, TypeScript",
+      "alt": "SvelteKit Logo",
+      "description": "Svelte, HTML, and CSS source code for this website.",
+      "url": "https://github.com/azn-abel/portfolio-sveltekit",
+      "imagePath": "react.png",
+      "borderRadius": "200px"
+    },
+    {
+      "title": "Old Portfolio – React, JavaScript",
+      "alt": "Old Portfolio",
+      "description": "Old version of my digital portfolio which was built with React.",
+      "url": "https://azn-abel.github.io/",
+      "imagePath": "genshin.png",
+      "borderRadius": "200px"
+    },
+    {
+      "title": "NBA Bot – Go, ESPN API",
+      "alt": "NBA Logo",
+      "description": "A discordgo bot that delivers NBA scores right to your Discord servers.",
+      "url": "https://github.com/azn-abel/nba-bot",
+      "imagePath": "pokeball.png",
+      "borderRadius": "0px"
+    },
+    {
       "title": "Ramen Data Analysis – Python, Matplotlib",
       "alt": "Python Logo",
       "description": "Exploratory data analysis to identify trends in Ramen ratings.",
@@ -32,35 +56,11 @@
       "borderRadius": "0px"
     },
     {
-      "title": "Portfolio – SvelteKit, TypeScript",
-      "alt": "SvelteKit Logo",
-      "description": "Svelte, HTML, and CSS source code for this website.",
-      "url": "https://github.com/azn-abel/portfolio-sveltekit",
-      "imagePath": "react.png",
-      "borderRadius": "200px"
-    },
-    {
-      "title": "PokeBot – Python, PostgreSQL",
-      "alt": "Pokeball",
-      "description": "A discord.py bot that simulates Pokemon collecting in chat rooms.",
-      "url": "https://github.com/azn-abel/PokemonCollectingBot3",
-      "imagePath": "pokeball.png",
-      "borderRadius": "0px"
-    },
-    {
       "title": "Wake County Food – RStudio",
       "alt": "R Logo",
       "description": "A simple R project that analyzes sanitation scores in Wake County, NC.",
       "url": "https://github.com/azn-abel/wake-county-food-inspections",
       "imagePath": "r.png",
       "borderRadius": "0px"
-    },
-    {
-      "title": "Old Portfolio – React, JavaScript",
-      "alt": "Old Portfolio",
-      "description": "Old version of my digital portfolio which was built with React.",
-      "url": "https://azn-abel.github.io/",
-      "imagePath": "genshin.png",
-      "borderRadius": "200px"
     }
 ]

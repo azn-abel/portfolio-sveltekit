@@ -1,10 +1,12 @@
 <script>
   import Certification from './Certification.svelte';
+  import SkillGroup from './SkillGroup.svelte';
 
   import certifications from '$lib/certifications.json'
+  import skills from '$lib/skills.json'
 </script>
 
-<h1>Hey, I'm Abel 🐳</h1>
+<h1>Hey, I'm Abel 😎</h1>
 <i>
   This website is still in the works, but feel free to visit
   <a href="https://azn-abel.github.io">azn-abel.github.io</a>
@@ -17,56 +19,13 @@
   that improves developer productivity within the organization. On the side, I'm learning Go and SvelteKit
   to keep my skills sharp.
 </p>
-<h2>Notable Skills</h2>
+<h2>Notable Skills 💻</h2>
 <ul>
-  <li>
-    Programming Languages:
-    <ul>
-      <li>
-        Python, Go, JavaScript/TypeScript, Java, SQL, C
-      </li>
-    </ul>
-  </li>
-  <li>
-    Frontend:
-    <ul>
-      <li>HTML, CSS, JavaScript/TypeScript, React, Redux, Svelte, htmx</li>
-    </ul>
-  </li>
-  <li>
-    Backend:
-    <ul>
-      <li>
-        Flask, net/http, Spring Boot, Express.js
-      </li>
-    </ul>
-  </li>
-  <li>
-    Telemetry:
-    <ul>
-      <li>
-        Prometheus, Grafana, Jaeger
-      </li>
-    </ul>
-  </li>
-  <li>
-    Databases:
-    <ul>
-      <li>
-        PostgreSQL, Redis, Elasticsearch
-      </li>
-    </ul>
-  </li>
-  <li>
-    Containers/Cloud:
-    <ul>
-      <li>
-        Docker, Podman, Kubernetes, AWS (foundational)
-      </li>
-    </ul>
-  </li>
+  {#each skills as skill}
+    <SkillGroup {...skill} />
+  {/each}
 </ul>
-<h2>Certifications</h2>
+<h2>Certifications 📜</h2>
 <div class="cert-container">
   {#each certifications as certification}
     <Certification {...certification}/>

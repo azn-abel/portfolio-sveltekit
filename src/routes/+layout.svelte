@@ -15,7 +15,7 @@
       <!-- <a class="buffer" href="/about">About</a> -->
       <a class="buffer" href="/projects">Projects</a>
       <!-- <a class="buffer" href="/blog">Blog</a> -->
-      <a href="/resume">Resume</a>
+      <a href="/resume">Experience</a>
     </nav>
   </div>
   <hr />
