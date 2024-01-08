@@ -1,27 +1,33 @@
 <script lang="ts">
   import type { PageData } from "./$types";
-  import { onMount } from "svelte";
-  import 'highlight.js/styles/a11y-dark.css';
-  import hljs from 'highlight.js'
 
-  onMount(() => {
-    hljs.highlightAll()
-  })
+  import blogData from "$lib/blogs.json";
+
+  interface Blog {
+    title: string;
+    date: string;
+    description: string;
+    content: string;
+  }
+
+  type BlogMap = Record<string, Blog>;
+
+  const blogs: BlogMap = blogData;
 
   export let data: PageData;
 </script>
 
 <h1>Blog ✍🏻</h1>
-<p>My blog will go here, one day.</p>
-<pre>
-  <code class="language-python">
-    def main():
-        print("Hello World!")
-  </code>
-</pre>
 
-<style>
-  code {
-    border-radius: 1rem;
-  }
-</style>
+<svelte:head>
+  <title>abellu.online | Blog</title>
+  <meta name="description" content="Abel Lu's super cool blog!" />
+</svelte:head>
+
+{#each Object.keys(blogs) as key}
+  <h3>
+    <a href={"/blog/" + key}>{blogs[key]["title"]}</a>
+    - {blogs[key]["date"]}
+  </h3>
+  <p>{blogs[key]["description"]}</p>
+{/each}

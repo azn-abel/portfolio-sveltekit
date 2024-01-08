@@ -9,3 +9,8 @@
 {#each data.jobs as job}
   <Job {...job} />
 {/each}
+
+<svelte:head>
+  <title>abellu.online | Experience</title>
+  <meta name="description" content="Abel Lu's super cool employment history!" />
+</svelte:head>

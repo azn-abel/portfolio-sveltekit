@@ -1,9 +1,9 @@
 <script lang="ts">
-  export let category: string
-  export let skills: string
+  export let category: string;
+  export let skills: string;
 </script>
 
-<li>
+<li style="color: white;">
   {category}
   <ul>
     <li>

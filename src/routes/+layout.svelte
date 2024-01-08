@@ -14,11 +14,10 @@
     <nav>
       <!-- <a class="buffer" href="/about">About</a> -->
       <a class="buffer" href="/projects">Projects</a>
-      <!-- <a class="buffer" href="/blog">Blog</a> -->
+      <a class="buffer" href="/blog">Blog</a>
       <a href="/resume">Experience</a>
     </nav>
   </div>
-  <hr />
   <slot />
   <Footer />
 </div>
@@ -34,13 +33,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 2rem;
+    border-bottom: 1px solid darkgray;
   }
   a {
     text-decoration: none;
     color: white;
+    transition: 0.25s;
   }
   a:hover {
-    color: lightgray;
+    color: gray;
   }
   .buffer {
     margin-right: 15px;

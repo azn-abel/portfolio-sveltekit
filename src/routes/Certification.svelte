@@ -1,19 +1,18 @@
 <script lang="ts">
-    export let name: string
-    export let image_url: string
-    export let cert_url: string
+  export let name: string;
+  export let image_url: string;
+  export let cert_url: string;
 </script>
 
 <a href={cert_url} target="_blank" rel="noreferrer">
-    <div class="cert">
-        <img src={image_url} alt="CKAD" style="width: 256px"/>
-        <p>{name}</p>
-    </div>
+  <div class="cert">
+    <img src={image_url} alt="CKAD" style="width: 128px" />
+  </div>
 </a>
 
 <style>
   .cert {
-    width: 256px;
+    width: 128px;
     text-align: center;
   }
   a {
@@ -22,10 +21,13 @@
     padding: 16px;
     border-radius: 8px;
     margin: 16px;
-    transition: 0.5s
+    transition: 0.5s;
+  }
+  p {
+    color: white;
   }
   a:hover {
+    color: white;
     transform: scale(1.05);
   }
 </style>
-
