@@ -6,20 +6,20 @@
 
 <a href={cert_url} target="_blank" rel="noreferrer">
   <div class="cert">
-    <img src={image_url} alt="CKAD" style="width: 128px" />
+    <img src={image_url} alt="CKAD" style="width: 160px" />
   </div>
 </a>
 
 <style>
   .cert {
-    width: 128px;
+    width: 160px;
     text-align: center;
   }
   a {
     text-decoration: none;
     color: white;
-    padding: 16px;
-    border-radius: 8px;
+    /* padding: 16px;
+    border-radius: 8px; */
     margin: 16px;
     transition: 0.5s;
   }

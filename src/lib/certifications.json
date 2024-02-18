@@ -1,7 +1,12 @@
 [
     {
+        "name": "CKA",
+        "image_url": "/cka.png",
+        "cert_url": "https://www.credly.com/badges/2a0bf2dc-ee68-43cc-89a5-5690c3cd0868/public_url"
+    },
+    {
         "name": "CKAD",
-        "image_url": "/ckad_from_cncfsite.png",
+        "image_url": "/ckad.png",
         "cert_url": "https://www.credly.com/badges/23834986-f3a1-43ad-8314-393eb891789e/public_url"
     },
     {
