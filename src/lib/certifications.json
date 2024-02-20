@@ -1,22 +1,22 @@
 [
     {
         "name": "CKA",
-        "image_url": "/cka.png",
+        "image_url": "cka.png",
         "cert_url": "https://www.credly.com/badges/2a0bf2dc-ee68-43cc-89a5-5690c3cd0868/public_url"
     },
     {
         "name": "CKAD",
-        "image_url": "/ckad.png",
+        "image_url": "ckad.png",
         "cert_url": "https://www.credly.com/badges/23834986-f3a1-43ad-8314-393eb891789e/public_url"
     },
     {
         "name": "AWS CCP",
-        "image_url": "/aws_ccp.png",
+        "image_url": "aws_ccp.png",
         "cert_url": "https://www.credly.com/badges/2177f5a8-2248-45ac-8636-abb5f28c022a/public_url"
     },
     {
         "name": "PCEP",
-        "image_url": "/pcep.png",
+        "image_url": "pcep.png",
         "cert_url": "https://verify.openedg.org/?id=Npzg.TXYm.B2D8"
     }
 ]
