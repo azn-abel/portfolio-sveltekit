@@ -12,5 +12,5 @@
 
 <svelte:head>
   <title>abellu.online | Experience</title>
-  <meta name="description" content="Abel Lu's super cool employment history!" />
+  <meta name="description" content="Abel Lu's employment history 😎" />
 </svelte:head>

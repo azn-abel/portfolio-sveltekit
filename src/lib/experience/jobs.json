@@ -1,0 +1,30 @@
+[
+    {
+        "company": "NC State Department of Computer Science",
+        "jobTitle": "Distributed Systems Researcher",
+        "year": "Spring 2024",
+        "image_url": "north_carolina_state_university_logo",
+        "url": "https://ncsu-microservice-benchmarking.github.io/Microservice-Profiling-with-Distributed-Tracing-and-Kubernetes/"
+    },
+    {
+        "company": "Renaissance Computing Institute",
+        "jobTitle": "Platform Engineering Intern",
+        "year": "Fall 2023",
+        "image_url": "renci_logo",
+        "url": "https://renci.org/"
+    },
+    {
+        "company": "Lowe's Companies, Inc.",
+        "jobTitle": "Software Engineering Intern",
+        "year": "Summer 2023",
+        "image_url": "lowes_home_improvement_logo",
+        "url": "https://corporate.lowes.com/"
+    },
+    {
+        "company": "Cisco Systems, Inc.",
+        "jobTitle": "Engineering Extern",
+        "year": "Summer 2021",
+        "image_url": "cisco_logo",
+        "url": "https://www.cisco.com/"
+    }
+]

@@ -6,7 +6,7 @@
 
 <a href={cert_url} target="_blank" rel="noreferrer">
   <div class="cert">
-    <img src={image_url} alt="CKAD" style="width: 160px" />
+    <img src={`/certification_logos/${image_url}`} alt="CKAD" style="width: 160px" />
   </div>
 </a>
 

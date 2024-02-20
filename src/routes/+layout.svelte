@@ -13,9 +13,9 @@
 
     <nav>
       <!-- <a class="buffer" href="/about">About</a> -->
+      <a class="buffer"href="/resume">Experience</a>
       <a class="buffer" href="/projects">Projects</a>
-      <a class="buffer" href="/blog">Blog</a>
-      <a href="/resume">Experience</a>
+      <a href="/blog">Blog</a>
     </nav>
   </div>
   <slot />
@@ -29,12 +29,19 @@
     height: fit-content;
     margin: auto;
   }
+  @media (max-width: 800px) {
+    .content {
+      width: calc(100vw - 2rem);
+      margin: auto 1rem;
+    }
+  }
   .menu-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 2rem;
+    height: 2.5rem;
     border-bottom: 1px solid darkgray;
+    align-items: center;
   }
   a {
     text-decoration: none;

@@ -12,7 +12,7 @@
         "skills": "Flask, net/http, Spring Boot, Node.js"
     },
     {
-        "category": "Telemetry",
+        "category": "Observability",
         "skills": "Prometheus, Grafana, Jaeger"
     },
     {
@@ -21,6 +21,6 @@
     },
     {
         "category": "Containers/Cloud",
-        "skills": "Docker, Podman, Kubernetes, AWS (foundational)"
+        "skills": "Docker, Kubernetes, AWS (foundational)"
     }
 ]

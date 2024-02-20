@@ -32,6 +32,11 @@
     a:hover .social:hover {
         transform: scale(1.1);
     }
+    .socials-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .social {
         width: 3rem;
         margin: 1rem;
