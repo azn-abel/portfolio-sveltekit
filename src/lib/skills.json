@@ -1,26 +1,22 @@
 [
     {
         "category": "Programming Languages",
-        "skills": "Python, Go, JavaScript/TypeScript, Java, SQL, C"
+        "skills": "Python, Go, JavaScript/TypeScript, Java, C, SQL"
     },
     {
         "category": "Frontend",
-        "skills": "HTML, CSS, JavaScript/TypeScript, React, Redux, Svelte, htmx"
+        "skills": "HTML/CSS, React, Svelte, Next, htmx"
     },
     {
         "category": "Backend",
-        "skills": "Flask, net/http, Spring Boot, Node.js"
+        "skills": "Flask, net/http, Spring Boot, Node.js, PostgreSQL, Redis"
+    },
+    {
+        "category": "Containers/Cloud",
+        "skills": "Docker, Kubernetes, Helm, DigitalOcean, AWS (foundational)"
     },
     {
         "category": "Observability",
         "skills": "Prometheus, Grafana, Jaeger"
-    },
-    {
-        "category": "Databases",
-        "skills": "PostgreSQL, Redis, Elasticsearch"
-    },
-    {
-        "category": "Containers/Cloud",
-        "skills": "Docker, Kubernetes, AWS (foundational)"
     }
 ]

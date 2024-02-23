@@ -3,6 +3,11 @@
         "company": "NC State Department of Computer Science",
         "jobTitle": "Distributed Systems Researcher",
         "year": "Spring 2024",
+        "bullets": [
+            "Facilitated the transition from Docker to containerd as the container runtime on worker nodes",
+            "Installed Prometheus, Grafana, and Jaeger using Helm to monitor cluster resource usage",
+            "Develop new features on 5 microservices that I deploy and maintain on our Kubernetes cluster"
+        ],
         "image_url": "north_carolina_state_university_logo",
         "url": "https://ncsu-microservice-benchmarking.github.io/Microservice-Profiling-with-Distributed-Tracing-and-Kubernetes/"
     },
@@ -10,6 +15,11 @@
         "company": "Renaissance Computing Institute",
         "jobTitle": "Platform Engineering Intern",
         "year": "Fall 2023",
+        "bullets": [
+            "Developed an internal platform to help software engineers migrate from VMs to Kubernetes",
+            "Containerized applications using Docker and deployed them to RENCI's Kubernetes cluster",
+            "Utilized React for frontend, Go for backend, and Redis as a database to build the platform"
+        ],
         "image_url": "renci_logo",
         "url": "https://renci.org/"
     },
@@ -17,6 +27,11 @@
         "company": "Lowe's Companies, Inc.",
         "jobTitle": "Software Engineering Intern",
         "year": "Summer 2023",
+        "bullets": [
+            "Developed a self-service POS management portal for store admins with React and Redux",
+            "Created a Prometheus/Grafana metrics dashboard, improving incident response time by 30%",
+            "Used Docker Compose to setup a containerized dev environment for a 20+ member team"
+        ],
         "image_url": "lowes_home_improvement_logo",
         "url": "https://corporate.lowes.com/"
     },
@@ -24,6 +39,10 @@
         "company": "Cisco Systems, Inc.",
         "jobTitle": "Engineering Extern",
         "year": "Summer 2021",
+        "bullets": [
+            "Designed and pitched a medication management solution for retirement homes in the US",
+            "Won first place in Cisco's annual capstone competition with a team of 12 members"
+        ],
         "image_url": "cisco_logo",
         "url": "https://www.cisco.com/"
     }

@@ -12,7 +12,6 @@
     </nav>
 
     <nav>
-      <!-- <a class="buffer" href="/about">About</a> -->
       <a class="buffer"href="/resume">Experience</a>
       <a class="buffer" href="/projects">Projects</a>
       <a href="/blog">Blog</a>

@@ -9,10 +9,15 @@
 <h1>Hey, I'm Abel Lu 😎</h1>
 <p>
   I'm currently an undergrad at NC State University, where I study computer
-  science with a focus on <b>full-stack development, DevOps, and platform engineering</b>.
-  Outside of school, I work as an intern at <a href="https://renci.org">RENCI</a>,
+  science with a focus on <b>full-stack development, DevOps, and cloud infrastructure</b>.
+</p>
+<p>
+  Outside of school, I work as a Platform Engineering Intern at <a href="https://renci.org">RENCI</a>,
   where I create and deploy software that improves the developer experience within the
-  organization. On the side, I'm learning Go and SvelteKit to keep my skills sharp.
+  organization.
+</p>
+<p>
+  In my free time, I'm brushing up on <b>Go</b> and <b>Terraform</b> to keep my skills sharp.
 </p>
 
 <h2>Notable Skills 💻</h2>
