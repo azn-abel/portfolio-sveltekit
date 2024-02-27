@@ -1,20 +1,15 @@
 <script lang="ts">
   import { onMount } from "svelte";
 
-  let image: any;
-
   export let name: string;
   export let image_url: string;
   export let cert_url: string;
 
-  onMount(async () => {
-		image = (await import(`../lib/certifications/${image_url}.png`)).default;
-	});
 </script>
 
 <a href={cert_url} target="_blank" rel="noreferrer">
   <div class="cert">
-    <img src={image} alt={name} style="width: 136px" />
+    <img src={`/certifications/${image_url}.png`} alt={name} style="width: 136px; height: 136px" />
   </div>
 </a>
 
@@ -23,6 +18,7 @@
     width: 136px;
     height: 136px;
     text-align: center;
+    background-color: black;
   }
   a {
     text-decoration: none;

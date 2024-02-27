@@ -4,7 +4,6 @@
 
   import certifications from "$lib/certifications.json";
   import skills from "$lib/skills.json";
-  import picOfMe from "$lib/me.jpg";
 </script>
 
 <h1>Hey, I'm Abel Lu 😎</h1>
@@ -12,7 +11,7 @@
 
 
 <div class="pfp-container">
-  <img src={picOfMe} alt="Abel Lu" style="max-width: 100%; border-radius: 0%;" />
+  <img src={`/me.jpg`} alt="Abel Lu" style="max-width: 100%; min-height: min(480px, calc(100vw - 2rem))" />
 </div>
 <div class="cert-container">
   {#each certifications as certification}
