@@ -1,4 +1,8 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
+
+  let image: any;
+
   export let company: string;
   export let jobTitle: string;
   export let year: string;
@@ -6,12 +10,17 @@
   export let image_url: string;
   export let url: string;
 
+  onMount(async () => {
+		image = (await import(`../../lib/experience/${image_url}.jpg`)).default;
+	});
+
+
 </script>
 <details>
   <summary>
     <div class="job-container">
       <a class="image-region" href={url}>
-        <img class="image-region" src={`/company_logos/${image_url}.jpg`} alt="">
+        <img class="image-region" src={image} alt="">
       </a>
       
       <div class="text-region">

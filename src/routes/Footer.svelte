@@ -12,7 +12,7 @@
             </a>
         {/each}
     </div>
-    <p>📩 aluprof4@gmail.com &ensp;|&ensp; 📲 +1 269-501-7211</p>
+    <p>Copyright © 2024 Abel Lu</p>
     <p>
         Created with SvelteKit
         <img src={svelteIcon} alt="Svelte Icon">
@@ -48,6 +48,6 @@
         margin: 2rem 0;
     }
     p {
-        margin: 0;
+        margin: 0.1rem;
     }
 </style>
